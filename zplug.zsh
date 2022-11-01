@@ -20,6 +20,6 @@ else
     curl -fsSL $url > zipball.zip
 fi
 
-unzip zipball.zip yarn-autocompletions
+unzip -o zipball.zip yarn-autocompletions
 
 rm zipball.zip
